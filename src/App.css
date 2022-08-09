@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+html {
+  background-color: lightgrey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+html, section {
+  display: flex;
+  justify-content: center;
+}
+
+#quote-area {
+  background-color: lightgrey;
+}
+
+#quote-box {
+  display: flex;
+  justify-content: row;
+  align-items: space-around;
+  flex-direction: column;
+  width: 700px;
+  height: 100%;
+  padding-top:  30px;
+  padding-bottom:  30px;
+  background-color: brown;
+  border-radius:  5px;
+  box-shadow: 1px 1px;
+}
+
+#text {
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#author {
+  font-size: 30px;
+}
+
+#bottom-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#tweet-quote {
+  border: solid black;
+  background-color:  white;
+  color: green;
+  text-decoration: none;
+  height: 30px;
+  width: 110px;
+}
+
+/* unvisited link */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
